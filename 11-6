@@ -1,0 +1,23 @@
+Part I: ARP request message
+
+a. the hardware type?    Ethernet(1)
+b. the protocol type?    IPv4(0x0800)
+c. the hardware length?   6
+d. the protocol length?   4
+e. the operation code?    request(1)
+f. the source hardware address?    Azureway_84:5b:67(28:c2:dd:84:5b:67) 
+g. the source protocol address?    192.168.1.5
+h. the destination hardware address?    ZioncomE_56:5d:cd(b8:55:10:56:5d:cd)
+i. the destination protocol address?    192.168.1.1
+
+Part II: ARP reply message
+
+a. the hardware type?    Ethernet(1)
+b. the protocol type?    IPv4(0x0800)
+c. the hardware length?   6
+d. the protocol length?   4
+e. the operation code?    reply(2)
+f. the source hardware address?    ZioncomE_56:5d:cd(b8:55:10:56:5d:cd) 
+g. the source protocol address?    192.168.1.1
+h. the destination hardware address?    Azureway_84:5b:67(28:c2:dd:84:5b:67)
+i. the destination protocol address?    192.168.1.5
